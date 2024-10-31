@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.json-tree {
+  list-style-type: none;
+  padding-left: 20px;
+}
+
+.key {
+  color: #881391;
+}
+
+.value {
+  color: #1a1aa6;
+}
+
+.array {
+  color: #1a1aa6;
+}
+
+.dark .key {
+  color: #bb86fc;
+}
+
+.dark .value,
+.dark .array {
+  color: #82b1ff;
+}
